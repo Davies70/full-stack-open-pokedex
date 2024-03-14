@@ -22,8 +22,8 @@ jobs:
         run: npm run test
       - name: Cypress e2e test
         uses: cypress-io/github-action@v6
-        with:
-          command: npm run test:e2e
-          start: npm run start-prod
-          wait-on: 'http://127.0.0.1:5000'
-          wait-on-timeout: 120
+        # with:
+        #   command: npm run test:e2e
+        #   start: npm run start-prod
+        #   wait-on: 'http://127.0.0.1:5000'
+        #   wait-on-timeout: 120
