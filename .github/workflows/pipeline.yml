@@ -24,6 +24,5 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           command: npm run test:e2e
-          start: npm run build 
           start: npm run start-prod
           wait-on: 'http://127.0.0.1:5000'
