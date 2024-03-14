@@ -3,6 +3,7 @@ import axiosMock from 'axios'
 import { act } from 'react-dom/test-utils'
 import '@testing-library/jest-dom'
 import PokemonPage from '../src/PokemonPage'
+import React from 'react'
 
 import { MemoryRouter } from 'react-router-dom'
 

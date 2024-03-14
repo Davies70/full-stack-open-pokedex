@@ -4,6 +4,8 @@ import { act } from 'react-dom/test-utils'
 import '@testing-library/jest-dom'
 import { BrowserRouter as Router } from 'react-router-dom'
 import App from '../src/App'
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
 
 jest.mock('axios')
 
